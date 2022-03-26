@@ -11,7 +11,7 @@ pipeline{
     }
     stage('Build'){
       steps{ 
-        sh 'Docker build -t dodzi2022/nodejsapp:1.0 .'
+        sh 'docker build -t dodzi2022/nodejsapp:1.0 .'
       }
     }
     stage('Login'){
