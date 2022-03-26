@@ -6,8 +6,6 @@ COPY package.json ./
 
 RUN npm install
 
-RUN npm test
-
 COPY . .
 
 EXPOSE 3000
